@@ -1,0 +1,131 @@
+.card.p-4{
+    border-radius: 40px;
+    border: 4px solid rgb(62, 60, 60); 
+    background-color: #363942b5;
+}
+
+
+/* Garante que o body e a página ocupem toda a altura */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+/* Container do vídeo para cobrir toda a tela */
+.banner {
+    position: fixed; /* Fixa o vídeo no fundo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Mantém o vídeo atrás de outros elementos */
+}
+
+/* Ajuste do vídeo para cobrir toda a tela sem distorção */
+.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz o vídeo preencher toda a área sem distorção */
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 0 0 5px #111, 0 0 10px #ffffff, 0 0 20px #ffffff, 
+    0 0 40px rgb(78, 80, 80), 0 0 80px rgb(147, 147, 151), 0 0 90px rgb(123, 123, 126);
+}
+
+img{
+
+    height: 250px;
+    width: 180px;
+    border: 5px solid black;
+    filter: drop-shadow(0 0 10px #7a7d7d) 
+            drop-shadow(0 0 20px #7a7a7a) 
+            drop-shadow(0 0 30px #7a7a7a); 
+}
+
+.instagram{
+    margin: 0 auto;    
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    display: block; /* Garante que o elemento possa ser centralizado */
+}
+
+.instagram p{
+    color: white;
+}
+
+.instagram p:hover{
+    color: white;
+    background-color: rgb(63, 83, 83);
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.text-decoration{
+
+   text-align: left; 
+   color:white;
+}
+
+.text-center{
+color: white;
+}
+
+.button button{
+
+    width: 300px;
+    background-color: #1111111a;
+}
+
+.button a{
+    
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button button:hover{
+    background-color: #107db756;
+}
+
+.table table-bordered{
+    border: solid black;
+}
+.table a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.table a:hover{
+    padding: 4px;
+    border-radius: 8px;
+    background-color:#107db7ad;
+    font-size: 19px;
+}
+
+footer p{
+
+    color: #ffffff;
+    text-align: center;
+}
+
+.sonho{ 
+
+    color: antiquewhite;
+    font-size: 17px;
+    margin-right: 50px;
+    text-align: right;
+
+ /* 0px → Topo (superior), 0px → Direita, 30px → Base (inferior), 50px → Esquerda */ 
+    padding:  0px 0px 30px 50px;
+}
